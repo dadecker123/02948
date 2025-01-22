@@ -4,7 +4,7 @@ public class Main {
         System.out.println("Welcome to computer science.");
         System.out.println("Programming is fun.");
     }
-
+// not sure what this override does, it was automatically added. 
     @Override
     public String toString() {
         return "Main []";
