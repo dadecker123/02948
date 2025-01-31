@@ -12,7 +12,7 @@ public class Temperature {
         double fahrenheit = 0;
         //performs celsius to fahrenheit calculation
         fahrenheit = (9.0 / 5) * celsius + 32;
-        //print value 
+        //prints value 
         System.out.println("Your temperature in Fahrenehit is: " + fahrenheit); 
     }
 }
