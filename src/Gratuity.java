@@ -9,7 +9,7 @@ public class Gratuity {
             double gratuity = input.nextDouble();
             double tip = subTotal * (gratuity / 100);
             double total = subTotal + tip;
-            System.out.println("Your total is: " + total + " dollars.");
+        System.out.println("Your total is: " + total + " dollars.");
 
 
 
