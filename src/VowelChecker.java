@@ -26,7 +26,7 @@ public class VowelChecker {
                     default:
                         System.out.println(c + " is a consonant.");
                 }
-        // Any value of c not included in the lost returns error.
+        // Any value of c not included in the list returns an error.
         } else {
             System.out.println("Unaccepted value.");
         }
