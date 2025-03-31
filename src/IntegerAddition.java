@@ -5,6 +5,7 @@ public class IntegerAddition{
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter an integer: ");
         long num = scanner.nextLong();
+        scanner.close();
         System.out.println("The sum of every digit in your integer is " + sumDigits(num));
     }
     public static int sumDigits(long n){
