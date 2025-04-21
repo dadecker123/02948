@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ArrayOrdered {
     public static void main(String args[]) {
+    
         Scanner scanner = new Scanner(System.in);
         double array[] = new double[10];
         System.out.println("Enter ten numbers for averaging.");
